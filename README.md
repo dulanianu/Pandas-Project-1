@@ -1,4 +1,4 @@
-# Athlete Data Analysis
+# Environment Setup for a Python - Pandas Project
 
 A beginner-friendly project demonstrating **practical Pandas use cases** for data analysis using Python.
 This project focuses on setting up a **clean, reproducible environment** and working with Jupyter notebooks in **VS Code**.
