@@ -1,4 +1,4 @@
-# Environment Setup for a Python - Pandas Project
+# Environment Setup for a Python - Pandas Projects
 
 A beginner-friendly project demonstrating **practical Pandas use cases** for data analysis using Python.
 This project focuses on setting up a **clean, reproducible environment** and working with Jupyter notebooks in **VS Code**.
@@ -19,24 +19,24 @@ This repository showcases:
 
 This project uses **Conda** to manage the Python environment.
 
-### 1️⃣ Create a new Conda environment (pandas_tutorials)
+### 1️⃣ Create a new Conda environment (pandas_projects)
 
 Open **Anaconda Prompt** (Windows) and run:
 
 ```bash
-conda create --name pandas_tutorials python=3.11
+conda create --name pandas_projects python=3.11
 ```
 
 Activate the environment:
 
 ```bash
-conda activate pandas_tutorials
+conda activate pandas_projects
 ```
 
 When activated, you should see:
 
 ```text
-(pandas_tutorials)
+(pandas_projects)
 ```
 
 ---
@@ -56,7 +56,7 @@ pip install numpy pandas openpyxl pyarrow pyjanitor ipykernel
 This step is required so that the environment appears in Jupyter notebooks:
 
 ```bash
-python -m ipykernel install --user --name pandas_tutorials --display-name "Python (pandas_tutorials)"
+python -m ipykernel install --user --name pandas_projects --display-name "Python (pandas_projects)"
 ```
 
 ---
@@ -82,7 +82,7 @@ python -m ipykernel install --user --name pandas_tutorials --display-name "Pytho
 5. Choose:
 
    ```
-   Python (pandas_tutorials)
+   Python (pandas_projects)
    ```
 
 Your notebook is now connected to the correct environment ✅
